@@ -188,7 +188,7 @@
 
     <div class="icerik">
         <div class="yazi-kutusu" id="anaSayfa">
-            <h1>💕 AŞK 💕</h1>
+            <h1>💕AŞKIM💕</h1>
             <div class="soru">
                 Bir öpücük ister misin?
             </div>
@@ -243,7 +243,7 @@
         setInterval(kalpOlustur, 300);
 
         // SEVGİLİNİN SABİT MAİL ADRESİ - BURAYI KENDİ MAİLİNLE DEĞİŞTİR!
-        const SEVGILININ_MAILI = "bayindir0041@gmail.com"; // <--- BURAYI DEĞİŞTİR
+        const SEVGILININ_MAILI = "bayindir0041@gmail.com"; // <--- BURAYI DEĞİŞTİ
 
         // EVET butonuna tıklandı - MAİL GİDECEK
         function evetMailGonder() {
@@ -253,7 +253,7 @@
             // EmailJS ile mail gönderme - BURAYA KENDİ ID'LERİNİZİ YAZIN
             emailjs.send("service_1", "template_3ed5mhu", {
                 to_email: SEVGILININ_MAILI,        // SABİT MAİL ADRESİ
-                from_name: "Aşk Sayfası 💕",
+                from_name: "Rüveyde",
                 message: "Sana kocaman bir ÖPÜCÜK gönderiyorum! 😘💋 Seni çok seviyorum! ❤️"
             }).then(function(response) {
                 document.getElementById('yukleniyorMesaj').style.display = 'none';
@@ -282,7 +282,7 @@
             // EmailJS ile mail gönderme - BURAYA KENDİ ID'LERİNİZİ YAZIN
             emailjs.send("service_1", "template_3ed5mhu", {
                 to_email: SEVGILININ_MAILI,        // SABİT MAİL ADRESİ
-                from_name: "Aşk Sayfası 💔",
+                from_name: "Rüveyde ",
                 message: "HAYIR dedin ama ben yine de seni çok seviyorum! 💔 Ama biraz üzüldüm... 😢"
             }).then(function(response) {
                 document.getElementById('yukleniyorMesaj').style.display = 'none';
@@ -313,4 +313,5 @@
         }
     </script>
 </body>
+
 </html>
